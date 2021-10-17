@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Modern No.20;
+    src: url("fonts/Modern No. 20.ttf");
+}
+
+@font-face {
+    font-family: Philosopher;
+    src: url("fonts/Philosopher-Regular.ttf");
+}
+
+body {
+    width: calc(1895 / 1920 * 100vw);
+    height: calc(900 / 1920 * 100vw);
+    background: linear-gradient(90deg, #9590BD 0%, #A98799 100%);
+    /*background-image: url("img/bg.svg");*/
+    /*background-size: auto;*/
+    margin: 0;
+}
+
+.header-menu {
+    display: none;
+    background-image: url("img/menu-bg.svg");
+    width: calc(1920 / 1920 * 100vw);
+    height: calc(117 / 1920 * 100vw);
+}
+
+#header-btn {
+    background-image: url("img/header-btn.svg");
+    background-size: cover;
+    width: calc(60 / 1920 * 100vw);
+    height: calc(55 / 1920 * 100vw);
+    margin-left: calc(35 / 1920 * 100vw);
+    margin-top: calc(37 / 1920 * 100vw);
+}
+
+section {
+    background-image: url("img/section-bg.svg");
+    background-size: cover;
+    width: calc(1780 / 1920 * 100vw);
+    height: calc(970 / 1920 * 100vw);
+    margin-left: calc(55 / 1920 * 100vw);
+    margin-right: calc(85 / 1920 * 100vw);
+}
+
+h1 {
+    font-size: 57px;
+    top: calc(205 / 1920 * 100vw);
+}
+
+h2 {
+    font-size: 43px;
+    top: calc(176 / 1920 * 100vw);
+}
+
+.logo {
+    position: absolute;
+    font-family: Modern No.20;
+    left: calc(1060 / 1920 * 100vw);
+}
+
+#main-text {
+    position: absolute;
+    top: calc(329 / 1920 * 100vw);
+    left: calc(1060 / 1920 * 100vw);
+    font-family: Philosopher;
+    font-size: 26px;
+}
+
+button {
+    width: calc(410 / 1920 * 100vw);
+    height: calc(69 / 1920 * 100vw);
+    font-family: Philosopher;
+    font-size: 26px;
+    align-items: center;
+    text-align: center;
+    color: #E2CDDB;
+    background-color: #482C39;
+    margin-top: calc(700 / 1920 * 100vw);
+    margin-left: calc(1020 / 1920 * 100vw);
+}
+
+#frame {
+    position: absolute;
+    width: calc(451 / 1920 * 100vw);
+    height: calc(90 / 1920 * 100vw);
+    top: calc(785 / 1920 * 100vw);
+    left: calc(1060 / 1920 * 100vw);
+    background-image: url("img/btn-frame.svg");
+    background-size: cover;
+}
